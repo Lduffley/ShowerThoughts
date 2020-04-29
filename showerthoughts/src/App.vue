@@ -1,4 +1,4 @@
-<template>
+<template
   <div id="app">
     <full-page :options="options" id="fullpage" v-if="isLoaded">
             <div v-for="showerThought in showerThoughts" :key="showerThought.data.id" class="section">
